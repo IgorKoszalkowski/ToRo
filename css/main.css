@@ -1,0 +1,419 @@
+
+
+@font-face {
+    font-family: 'Quattrocento Sans';
+    src: local('Quattrocento Sans Bold'), local('QuattrocentoSans-Bold'),
+        url('./fonts/Quattrocento_Sans/QuattrocentoSans-Bold.woff2') format('woff2'),
+        url('./fonts/Quattrocento_Sans/QuattrocentoSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quattrocento Sans';
+    src: local('Quattrocento Sans Italic'), local('QuattrocentoSans-Italic'),
+        url('./fonts/Quattrocento_Sans/QuattrocentoSans-Italic.woff2') format('woff2'),
+        url('./fonts/Quattrocento_Sans/QuattrocentoSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Quattrocento Sans';
+    src: local('Quattrocento Sans'), local('QuattrocentoSans'),
+        url('./fonts/Quattrocento_Sans/QuattrocentoSans.woff2') format('woff2'),
+        url('./fonts/Quattrocento_Sans/QuattrocentoSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quattrocento Sans';
+    src: local('Quattrocento Sans Bold Italic'), local('QuattrocentoSans-BoldItalic'),
+        url('./fonts/Quattrocento_Sans/QuattrocentoSans-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Quattrocento_Sans/QuattrocentoSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/*  Misc */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Quattrocento Sans;
+ font-weight: 200;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0	auto;
+    box-sizing: border-box;
+}
+
+
+
+/* Header*/
+
+header {
+
+  background: black;
+  height: 81px;
+}
+
+.logo {
+  margin-top: 30px;
+}
+
+ul.menu {
+  display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    color: #a5aead;
+}
+
+ li {
+   text-transform: uppercase;
+   display: inline-block;
+   float: right;
+   margin-left: 15px;
+   margin-top: -30px;
+   list-style: none;
+   flex: 0 0 auto;
+    text-align: left;
+ }
+
+ a {
+   color: #a5aead;
+   font-size: 12px;
+   font-weight: 600;
+   line-height: 42px;
+   text-decoration: none;
+   padding: 10px;
+ }
+
+ a:hover {
+   border-radius: 5px;
+   border: 1px solid #a5aead;
+   text-decoration: none;
+   color: #a5aead;
+
+
+ }
+a:visited {
+  text-decoration: none;
+  color: #a5aead;
+}
+ a:active {
+  border-radius: 5px;
+  border: 1px solid #23b7a4;
+  color: #23b7a4;
+  text-decoration: none;
+ }
+
+.banner {
+  color:white;
+  height:460px;
+  background-image: url("../img/pic.png");
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-color: black;
+  background-position: center;
+}
+
+.col {
+  margin-top: 150px;
+}
+
+.welcome {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.lorem {
+  padding: 20px 0 20px 0;
+  color: #ccd1d7;
+  font-size: 16px;
+}
+
+.viewmore {
+  font-family: inherit;
+  font-size: 12px;
+  background-color: #23b7a4;
+  border-radius: 3px;
+  border: 2px solid #23b7a4;
+  color: #ffffff;
+  width: 120px;
+  height: 40px;
+}
+
+.videotour {
+  margin-left: 15px;
+  font-size: 12px;
+  font-family: inherit;
+  background-color: Transparent;
+  border-radius: 3px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  width: 120px;
+  height: 40px
+}
+
+.pagination {
+  margin-top:400px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: flex-end;
+}
+
+
+/* OUR TEAM */
+
+.ourTeam {
+  height: 600px;
+  background: #ffffff;
+
+}
+.team {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  border-left: 10px solid  #e1e6ea;
+  font-size: 36px;
+font-weight: 200;
+line-height: 42px;
+text-align: left;
+padding-left: 10px;
+}
+
+
+.ico1
+{
+  position: center;
+  width: 50px;
+  height: 50px;
+  background:  #4e5a62;
+  position:absolute;
+  z-index:1;
+  top:200px;
+  margin-left: 69px;
+}
+.ico2 {
+  width: 50px;
+  height: 50px;
+  background:  #4e5a62;
+  position:absolute;
+  z-index:1;
+  top:200px;
+  margin-left:120px;
+  padding:4px;
+}
+
+.ico3 {
+  width: 50px;
+  height: 50px;
+  background:  #4e5a62;;
+  position:absolute;
+  z-index:1;
+  top:200px;
+  margin-left:171px;
+  padding:
+}
+
+.imgico1 {
+  padding-top:16px;
+}
+.imgico3{
+  padding-top:14px;
+}
+
+.imgico2 {
+  padding-top: 10px;
+}
+.person {
+  position:relative;
+  margin-left: 20px;
+}
+
+.name {
+  width:262px;
+  height: 74px;
+  background:  #e1e6ea;
+  margin-left: 20px;
+}
+
+.name h5{
+  padding-top:15px;
+  color: #292f36;
+  font-size:14px;
+  padding-left:15px;
+}
+ .name span {
+  padding-left:15px;
+  font-size:12px;
+  margin-bottom: -10px;
+  color: #8d8f92;
+}
+/* WORK */
+
+
+.work {
+
+  background-color: #3a454d;
+  width: 100%;
+  height: 800px;
+  padding-top:20px;
+}
+
+.work h2 {
+  border-left: 10px #4e5a62 solid;
+  color: #ffffff;
+  font-size: 36px;
+  padding-left: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.gallery {
+  margin-top:50px;
+
+}
+.gallery img {
+  margin:10px;
+  display:flex;
+}
+
+.showmemore {
+  background-color: Transparent;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 12px;
+  font-family: inherit;
+  width: 150px;
+  height: 40px;
+  margin-top:10px;
+}
+/* WHAT WE DO */
+
+.whatwedo {
+  height: 620px;
+}
+
+.whatwe {
+  border-left: 10px  #e1e6ea solid;
+  font-size: 36px;
+  padding-left: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+ .whatwedo h4 {
+   font-size: 14px;
+   font-weight: 400;
+   text-transform: uppercase;
+   line-height: 30px;
+   padding:10px;
+ }
+
+ .itemm {
+   margin-top: 50px;
+ }
+
+/* CONTACT */
+
+.contact {
+  background: white;
+  height: 800px;
+}
+
+.stayintouch {
+  border-left: 10px  #e1e6ea solid;
+  font-size: 36px;
+  padding-left: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 40px
+  }
+
+.contact h4 {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+}
+ img.contact {
+   repeat:no-repeat;
+ }
+
+ form {
+   margin-top:-50px;
+   margin-left:20px;
+   padding:20px;
+   background: white;
+ }
+#name, #email {
+  width: 200px;
+  height: 40px;
+  margin-left:10px;
+  background-color: #eaeef1;
+  border: #eaeef1;
+}
+.msg {
+  margin-left: -15px;
+}
+#message {
+  width:410px;
+  margin-left:-5px;
+  height: 144px;
+  border:1px solid #eaeef1;
+  background-color: #eaeef1;
+}
+ label {
+   font-size:10px;
+   color: #8d8f92;
+   padding-left: 10px;
+ }
+
+ .submit {
+   font-family: inherit;
+   font-size: 12px;
+   background-color: #23b7a4;
+   border-radius: 3px;
+   border: 2px solid #23b7a4;
+   color: #ffffff;
+   width: 120px;
+   height: 40px;
+   margin-top: 15px;
+ }
+
+footer {
+background-color: #3a454d;
+height: 95px;
+}
+.copy {
+  color: #ffffff;
+  font-size:14px;
+  margin-top:35px;
+}
+
+img.socialicons {
+  margin-top:35px;
+  float:right;
+}

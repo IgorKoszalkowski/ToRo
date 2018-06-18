@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="50px" height="50px" viewBox="0 0 50 50">
+<style type="text/css"><![CDATA[
+.style0 {
+  font-size: 28px;
+  font-family: "Socialico";
+  fill: rgb(255,255,255);
+}
+]]></style>
+<g><rect x="0" y="0" width="50" height="50" fill="rgb(57,69,77)"/><text transform="translate(19.25,34.75)" class="style0"><tspan x="0.00" fill="rgb(255,255,255)">F</tspan></text></g></svg>
